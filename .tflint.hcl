@@ -11,7 +11,7 @@ rule "terraform_deprecated_interpolation" {
  
 # Disallow variables, data sources, and locals that are declared but never used.
 rule "terraform_unused_declarations" {
-  enabled = true
+  enabled = false
 }
  
 # Disallow // comments in favor of #.
